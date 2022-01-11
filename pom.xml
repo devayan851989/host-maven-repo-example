@@ -48,7 +48,7 @@
                         <include>**/*</include>
                     </includes>
                     <merge>true</merge>
-                    <repositoryName>maven-host-example</repositoryName>
+                    <repositoryName>host-maven-repo-example</repositoryName>
                     <repositoryOwner>Sam1414</repositoryOwner>
                     <server>github</server>
                 </configuration>
@@ -89,8 +89,7 @@
     <repositories>
         <repository>
             <id>PROJECT-REPO-URL</id>
-            <url>https://github.com/Sam1414/maven-host-example/tree/mvn-artifact</url>
-            <!-- <url>https://github.com/Sam1414/maven-host-example.git</url> -->
+            <url>https://github.com/Sam1414/host-maven-repo-example/tree/main</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
